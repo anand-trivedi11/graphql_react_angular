@@ -1,0 +1,8 @@
+<div>
+  <h2>GraphQL Example with Angular</h2>
+  <ul *ngIf="!loading">
+    <li  *ngFor="let book of booksData">{{book.name}}</li> 
+  </ul>
+</div>
+
+<router-outlet></router-outlet>
